@@ -13,7 +13,7 @@ function App() {
 
 
   // Creational Patterm
-  
+
   // 1. Singlton
   // ExampleSingleton()
 
@@ -39,10 +39,10 @@ function App() {
 
   // return <ExampleProxy />;
 
-  return <ExampleDecorator/>
+  // return <ExampleDecorator/>
   return (
     <div>
-       React.js Design Pattern With Real Example  
+      React.js Design Patterns With Real Example Project
     </div>
   )
 }

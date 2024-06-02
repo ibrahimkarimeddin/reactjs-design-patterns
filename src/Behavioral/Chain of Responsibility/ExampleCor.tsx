@@ -3,28 +3,26 @@ import OrderStatusHandler, { AcceptedOrderHandler, DelivredOrderHandler, Penddin
 
 export type OrderStatus = 'pendding' | 'accepted' | 'delivred'
 export type Order = {
-    status :OrderStatus
+  status: OrderStatus
 }
-   
-const order :Order = {
-    status:"pendding"
+
+const order: Order = {
+  status: "pendding"
 }
 
 function ExampleCor() {
 
-    const [, forceUpdate] = useReducer(x => x + 1, 0);
+  const [, forceUpdate] = useReducer(x => x + 1, 0);
 
-    const handlerStatus = new PenddingOrderHandler()
-    
-    handlerStatus.setNextOrderStatusHandler(new AcceptedOrderHandler()).setNextOrderStatusHandler(new DelivredOrderHandler())
- 
-    
-    
+  const handlerStatus = new PenddingOrderHandler()
+
+  handlerStatus.setNextOrderStatusHandler(new AcceptedOrderHandler()).setNextOrderStatusHandler(new DelivredOrderHandler())
+
   return (
     // Dynmic Button 
-    <button onClick={()=>{
-        handlerStatus.handleOrderStatus(order)
-        forceUpdate()
+    <button onClick={() => {
+      handlerStatus.handleOrderStatus(order)
+      forceUpdate()
 
     }}>{order.status}</button>
   )
