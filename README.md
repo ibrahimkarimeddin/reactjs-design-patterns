@@ -62,7 +62,8 @@ This Repo Will Not Learn you The design pattern from zero
 but will give you a real example how you can use it in your next project 
 ## Contact
 
-For any queries or support, please reach out to our team at ibrahimkarimeddin@gmail.com or contact us via phone at +963951968994.
+For any queries or support, please reach out to our team at ibrahimkarimeddin@gmail.com. You can also contact us via [WhatsApp](https://wa.me/963951968994) or [Telegram](https://t.me/yourusername).
+
 
 ## Conclusion
 
