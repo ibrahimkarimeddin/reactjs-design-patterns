@@ -15,7 +15,9 @@ pnpm install
 ```
 
 5. Launch the Project with 
-```bash pnpm start ```
+```bash
+ pnpm start
+  ```
 6. Visit http://localhost:3000 to view the dashboard.
 
 
